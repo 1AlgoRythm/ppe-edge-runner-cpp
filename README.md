@@ -196,6 +196,11 @@ Person model, fp32, 1 thread, one run each (`scripts/diag_ort_build.sh` -> `resu
 | Python (pip-wheel ORT) | default | 22.88 | 22.07 |
 | Python (pip-wheel ORT) | mlas.disable_kleidiai=1 | 103.07 | 102.22 |
 
+Reading: with those kernels disabled, the wheel's ONNX Runtime becomes as slow as Homebrew's, and Homebrew's does not change. That fits
+Homebrew's build not using them for fp32 on this CPU; I did not inspect its build flags, so this is the explanation that fits the
+measurements, not a proven one. The C++ code is the same in both builds. int8 is barely affected, so the int8 rows agree across all three
+implementations, and the "int8 speedup" depends on which fp32 baseline you compare with.
+
 ### Round-to-round spread (how noisy the machine was)
 
 | run | rounds | total median per round (ms) | 1-min load average at start of each round |
