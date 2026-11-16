@@ -1,0 +1,545 @@
+{
+ "meta": {
+  "cpp": {
+   "lang": "cpp",
+   "mode": "cascade",
+   "variant": "fp32",
+   "person_model": "models/person_fp32.onnx",
+   "ppe_model": "models/ppe_fp32.onnx",
+   "conf": 0.25,
+   "iou": 0.45,
+   "threads": 0,
+   "onnxruntime": "1.32.0",
+   "opencv": "5.1.0",
+   "build": "Release",
+   "compiler": "Apple LLVM 21.0.0 (clang-2100.3.34.2)",
+   "cpu": "Apple M4"
+  },
+  "python": {
+   "lang": "python",
+   "mode": "cascade",
+   "variant": "fp32",
+   "person_model": "models/person_fp32.onnx",
+   "ppe_model": "models/ppe_fp32.onnx",
+   "input": "cpp-letterboxed-png",
+   "conf": 0.25,
+   "iou": 0.45,
+   "threads": 0,
+   "onnxruntime": "1.32.0",
+   "opencv": "5.0.0",
+   "numpy": "2.5.5",
+   "python": "3.12.15",
+   "cpu": "Apple M4"
+  },
+  "iou_thr": 0.9
+ },
+ "groups": {
+  "persons": {
+   "matched": 120,
+   "matched_iou50": 120,
+   "n_cpp": 120,
+   "n_py": 120,
+   "agreement_pct": 100.0,
+   "min_matched_iou": 0.9856939111504928,
+   "max_matched_score_diff": 1.9234848022686712e-06,
+   "images_with_any_disagreement": 0,
+   "per_image": {
+    "001003.jpg": {
+     "matched": 2,
+     "n_cpp": 2,
+     "n_py": 2,
+     "matched_iou50": 2
+    },
+    "001085.jpg": {
+     "matched": 4,
+     "n_cpp": 4,
+     "n_py": 4,
+     "matched_iou50": 4
+    },
+    "001146.jpg": {
+     "matched": 11,
+     "n_cpp": 11,
+     "n_py": 11,
+     "matched_iou50": 11
+    },
+    "001152.jpg": {
+     "matched": 2,
+     "n_cpp": 2,
+     "n_py": 2,
+     "matched_iou50": 2
+    },
+    "001155.jpg": {
+     "matched": 1,
+     "n_cpp": 1,
+     "n_py": 1,
+     "matched_iou50": 1
+    },
+    "001201.jpg": {
+     "matched": 4,
+     "n_cpp": 4,
+     "n_py": 4,
+     "matched_iou50": 4
+    },
+    "001213.jpg": {
+     "matched": 2,
+     "n_cpp": 2,
+     "n_py": 2,
+     "matched_iou50": 2
+    },
+    "001308.jpg": {
+     "matched": 2,
+     "n_cpp": 2,
+     "n_py": 2,
+     "matched_iou50": 2
+    },
+    "001326.jpg": {
+     "matched": 6,
+     "n_cpp": 6,
+     "n_py": 6,
+     "matched_iou50": 6
+    },
+    "001373.jpg": {
+     "matched": 1,
+     "n_cpp": 1,
+     "n_py": 1,
+     "matched_iou50": 1
+    },
+    "001391.jpg": {
+     "matched": 10,
+     "n_cpp": 10,
+     "n_py": 10,
+     "matched_iou50": 10
+    },
+    "001442.jpg": {
+     "matched": 1,
+     "n_cpp": 1,
+     "n_py": 1,
+     "matched_iou50": 1
+    },
+    "001503.jpg": {
+     "matched": 2,
+     "n_cpp": 2,
+     "n_py": 2,
+     "matched_iou50": 2
+    },
+    "001516.jpg": {
+     "matched": 2,
+     "n_cpp": 2,
+     "n_py": 2,
+     "matched_iou50": 2
+    },
+    "001535.jpg": {
+     "matched": 2,
+     "n_cpp": 2,
+     "n_py": 2,
+     "matched_iou50": 2
+    },
+    "001568.jpg": {
+     "matched": 1,
+     "n_cpp": 1,
+     "n_py": 1,
+     "matched_iou50": 1
+    },
+    "001634.jpg": {
+     "matched": 1,
+     "n_cpp": 1,
+     "n_py": 1,
+     "matched_iou50": 1
+    },
+    "001642.jpg": {
+     "matched": 1,
+     "n_cpp": 1,
+     "n_py": 1,
+     "matched_iou50": 1
+    },
+    "001687.jpg": {
+     "matched": 6,
+     "n_cpp": 6,
+     "n_py": 6,
+     "matched_iou50": 6
+    },
+    "001725.jpg": {
+     "matched": 3,
+     "n_cpp": 3,
+     "n_py": 3,
+     "matched_iou50": 3
+    },
+    "001752.jpg": {
+     "matched": 1,
+     "n_cpp": 1,
+     "n_py": 1,
+     "matched_iou50": 1
+    },
+    "001790.jpg": {
+     "matched": 3,
+     "n_cpp": 3,
+     "n_py": 3,
+     "matched_iou50": 3
+    },
+    "001854.jpg": {
+     "matched": 1,
+     "n_cpp": 1,
+     "n_py": 1,
+     "matched_iou50": 1
+    },
+    "001865.jpg": {
+     "matched": 5,
+     "n_cpp": 5,
+     "n_py": 5,
+     "matched_iou50": 5
+    },
+    "001883.jpg": {
+     "matched": 9,
+     "n_cpp": 9,
+     "n_py": 9,
+     "matched_iou50": 9
+    },
+    "001921.jpg": {
+     "matched": 2,
+     "n_cpp": 2,
+     "n_py": 2,
+     "matched_iou50": 2
+    },
+    "001931.jpg": {
+     "matched": 1,
+     "n_cpp": 1,
+     "n_py": 1,
+     "matched_iou50": 1
+    },
+    "001971.jpg": {
+     "matched": 5,
+     "n_cpp": 5,
+     "n_py": 5,
+     "matched_iou50": 5
+    },
+    "005013.jpg": {
+     "matched": 4,
+     "n_cpp": 4,
+     "n_py": 4,
+     "matched_iou50": 4
+    },
+    "005028.jpg": {
+     "matched": 4,
+     "n_cpp": 4,
+     "n_py": 4,
+     "matched_iou50": 4
+    },
+    "005099.jpg": {
+     "matched": 4,
+     "n_cpp": 4,
+     "n_py": 4,
+     "matched_iou50": 4
+    },
+    "005145.jpg": {
+     "matched": 4,
+     "n_cpp": 4,
+     "n_py": 4,
+     "matched_iou50": 4
+    },
+    "005164.jpg": {
+     "matched": 1,
+     "n_cpp": 1,
+     "n_py": 1,
+     "matched_iou50": 1
+    },
+    "005188.jpg": {
+     "matched": 5,
+     "n_cpp": 5,
+     "n_py": 5,
+     "matched_iou50": 5
+    },
+    "005225.jpg": {
+     "matched": 1,
+     "n_cpp": 1,
+     "n_py": 1,
+     "matched_iou50": 1
+    },
+    "02567_jpg.rf.d1327d7fe3826f7ae0976fc5e90f94aa.jpg": {
+     "matched": 1,
+     "n_cpp": 1,
+     "n_py": 1,
+     "matched_iou50": 1
+    },
+    "Video2_91_jpg.rf.faca99c76175b53a646f60aa1abc4b14.jpg": {
+     "matched": 1,
+     "n_cpp": 1,
+     "n_py": 1,
+     "matched_iou50": 1
+    },
+    "image_190_jpg.rf.2e92814af735dd1c2f54325bac2750f3.jpg": {
+     "matched": 1,
+     "n_cpp": 1,
+     "n_py": 1,
+     "matched_iou50": 1
+    },
+    "images-2022-07-04T013042_jpg.rf.b978dadc52cedd1622e4ef2c8cd1489d.jpg": {
+     "matched": 1,
+     "n_cpp": 1,
+     "n_py": 1,
+     "matched_iou50": 1
+    },
+    "ppe_0153_jpg.rf.cfc5bb75e388eecc7b459d59d4c41b95.jpg": {
+     "matched": 2,
+     "n_cpp": 2,
+     "n_py": 2,
+     "matched_iou50": 2
+    }
+   }
+  },
+  "items": {
+   "matched": 317,
+   "matched_iou50": 319,
+   "n_cpp": 319,
+   "n_py": 319,
+   "agreement_pct": 99.3730407523511,
+   "min_matched_iou": 0.9053863909378576,
+   "max_matched_score_diff": 3.874885559085328e-06,
+   "images_with_any_disagreement": 1,
+   "per_image": {
+    "001003.jpg": {
+     "matched": 11,
+     "n_cpp": 11,
+     "n_py": 11,
+     "matched_iou50": 11
+    },
+    "001085.jpg": {
+     "matched": 10,
+     "n_cpp": 10,
+     "n_py": 10,
+     "matched_iou50": 10
+    },
+    "001146.jpg": {
+     "matched": 23,
+     "n_cpp": 23,
+     "n_py": 23,
+     "matched_iou50": 23
+    },
+    "001152.jpg": {
+     "matched": 3,
+     "n_cpp": 3,
+     "n_py": 3,
+     "matched_iou50": 3
+    },
+    "001155.jpg": {
+     "matched": 5,
+     "n_cpp": 5,
+     "n_py": 5,
+     "matched_iou50": 5
+    },
+    "001201.jpg": {
+     "matched": 10,
+     "n_cpp": 10,
+     "n_py": 10,
+     "matched_iou50": 10
+    },
+    "001213.jpg": {
+     "matched": 5,
+     "n_cpp": 5,
+     "n_py": 5,
+     "matched_iou50": 5
+    },
+    "001308.jpg": {
+     "matched": 4,
+     "n_cpp": 4,
+     "n_py": 4,
+     "matched_iou50": 4
+    },
+    "001326.jpg": {
+     "matched": 11,
+     "n_cpp": 11,
+     "n_py": 11,
+     "matched_iou50": 11
+    },
+    "001373.jpg": {
+     "matched": 4,
+     "n_cpp": 4,
+     "n_py": 4,
+     "matched_iou50": 4
+    },
+    "001391.jpg": {
+     "matched": 24,
+     "n_cpp": 24,
+     "n_py": 24,
+     "matched_iou50": 24
+    },
+    "001442.jpg": {
+     "matched": 3,
+     "n_cpp": 3,
+     "n_py": 3,
+     "matched_iou50": 3
+    },
+    "001503.jpg": {
+     "matched": 6,
+     "n_cpp": 6,
+     "n_py": 6,
+     "matched_iou50": 6
+    },
+    "001516.jpg": {
+     "matched": 9,
+     "n_cpp": 9,
+     "n_py": 9,
+     "matched_iou50": 9
+    },
+    "001535.jpg": {
+     "matched": 4,
+     "n_cpp": 4,
+     "n_py": 4,
+     "matched_iou50": 4
+    },
+    "001568.jpg": {
+     "matched": 3,
+     "n_cpp": 3,
+     "n_py": 3,
+     "matched_iou50": 3
+    },
+    "001634.jpg": {
+     "matched": 4,
+     "n_cpp": 4,
+     "n_py": 4,
+     "matched_iou50": 4
+    },
+    "001642.jpg": {
+     "matched": 5,
+     "n_cpp": 5,
+     "n_py": 5,
+     "matched_iou50": 5
+    },
+    "001687.jpg": {
+     "matched": 8,
+     "n_cpp": 8,
+     "n_py": 8,
+     "matched_iou50": 8
+    },
+    "001725.jpg": {
+     "matched": 7,
+     "n_cpp": 7,
+     "n_py": 7,
+     "matched_iou50": 7
+    },
+    "001752.jpg": {
+     "matched": 3,
+     "n_cpp": 3,
+     "n_py": 3,
+     "matched_iou50": 3
+    },
+    "001790.jpg": {
+     "matched": 3,
+     "n_cpp": 3,
+     "n_py": 3,
+     "matched_iou50": 3
+    },
+    "001854.jpg": {
+     "matched": 2,
+     "n_cpp": 2,
+     "n_py": 2,
+     "matched_iou50": 2
+    },
+    "001865.jpg": {
+     "matched": 16,
+     "n_cpp": 16,
+     "n_py": 16,
+     "matched_iou50": 16
+    },
+    "001883.jpg": {
+     "matched": 30,
+     "n_cpp": 32,
+     "n_py": 32,
+     "matched_iou50": 32
+    },
+    "001921.jpg": {
+     "matched": 1,
+     "n_cpp": 1,
+     "n_py": 1,
+     "matched_iou50": 1
+    },
+    "001931.jpg": {
+     "matched": 3,
+     "n_cpp": 3,
+     "n_py": 3,
+     "matched_iou50": 3
+    },
+    "001971.jpg": {
+     "matched": 7,
+     "n_cpp": 7,
+     "n_py": 7,
+     "matched_iou50": 7
+    },
+    "005013.jpg": {
+     "matched": 13,
+     "n_cpp": 13,
+     "n_py": 13,
+     "matched_iou50": 13
+    },
+    "005028.jpg": {
+     "matched": 12,
+     "n_cpp": 12,
+     "n_py": 12,
+     "matched_iou50": 12
+    },
+    "005099.jpg": {
+     "matched": 7,
+     "n_cpp": 7,
+     "n_py": 7,
+     "matched_iou50": 7
+    },
+    "005145.jpg": {
+     "matched": 13,
+     "n_cpp": 13,
+     "n_py": 13,
+     "matched_iou50": 13
+    },
+    "005164.jpg": {
+     "matched": 3,
+     "n_cpp": 3,
+     "n_py": 3,
+     "matched_iou50": 3
+    },
+    "005188.jpg": {
+     "matched": 12,
+     "n_cpp": 12,
+     "n_py": 12,
+     "matched_iou50": 12
+    },
+    "005225.jpg": {
+     "matched": 3,
+     "n_cpp": 3,
+     "n_py": 3,
+     "matched_iou50": 3
+    },
+    "02567_jpg.rf.d1327d7fe3826f7ae0976fc5e90f94aa.jpg": {
+     "matched": 1,
+     "n_cpp": 1,
+     "n_py": 1,
+     "matched_iou50": 1
+    },
+    "Video2_91_jpg.rf.faca99c76175b53a646f60aa1abc4b14.jpg": {
+     "matched": 5,
+     "n_cpp": 5,
+     "n_py": 5,
+     "matched_iou50": 5
+    },
+    "image_190_jpg.rf.2e92814af735dd1c2f54325bac2750f3.jpg": {
+     "matched": 7,
+     "n_cpp": 7,
+     "n_py": 7,
+     "matched_iou50": 7
+    },
+    "images-2022-07-04T013042_jpg.rf.b978dadc52cedd1622e4ef2c8cd1489d.jpg": {
+     "matched": 4,
+     "n_cpp": 4,
+     "n_py": 4,
+     "matched_iou50": 4
+    },
+    "ppe_0153_jpg.rf.cfc5bb75e388eecc7b459d59d4c41b95.jpg": {
+     "matched": 13,
+     "n_cpp": 13,
+     "n_py": 13,
+     "matched_iou50": 13
+    }
+   }
+  }
+ },
+ "input_pixel_mismatch_images": 0,
+ "min_agreement_pct": 95.0,
+ "passed": true
+}

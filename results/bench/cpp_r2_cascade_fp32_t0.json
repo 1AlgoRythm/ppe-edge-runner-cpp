@@ -1,0 +1,14 @@
+{
+ "meta": {"lang": "cpp", "mode": "cascade", "variant": "fp32", "person_model": "models/person_fp32.onnx", "ppe_model": "models/ppe_fp32.onnx", "conf": 0.25, "iou": 0.45, "threads": 0, "ort_config": "", "onnxruntime": "1.32.0", "ort_library": "/opt/homebrew/Cellar/onnxruntime/1.32.0/lib/libonnxruntime.1.32.0.dylib", "opencv": "5.1.0", "build": "Release", "compiler": "Apple LLVM 21.0.0 (clang-2100.3.34.2)", "cpu": "Apple M4", "loadavg_before_after": [6.74658, 7.77686]},
+ "n_images": 40, "warmup_passes": 1, "timed_passes": 3, "n_timings": 120,
+ "note": "Per-image times in ms. In cascade mode each stage is summed over the person run and all PPE crops of that image. Image decoding is excluded.",
+ "preprocess_ms": {"median": 1.3888, "p95": 4.1364, "mean": 1.7669, "min": 0.4745},
+ "inference_ms": {"median": 136.1028, "p95": 451.9815, "mean": 188.7330, "min": 83.5915},
+ "postprocess_ms": {"median": 0.1601, "p95": 0.5976, "mean": 0.2109, "min": 0.0552},
+ "stages_total_ms": {"median": 137.4603, "p95": 456.3361, "mean": 190.7108, "min": 84.2100},
+ "e2e_ms": {"median": 137.4768, "p95": 456.3923, "mean": 190.7373, "min": 84.2186},
+ "person_stage_ms": {"median": 46.6155, "p95": 62.2009, "mean": 49.7300, "min": 40.9232},
+ "ppe_stage_ms": {"median": 89.6340, "p95": 408.2090, "mean": 140.9808, "min": 42.5743},
+ "crops_per_image_mean": 3,
+ "dets_per_image_mean": 7.975
+}

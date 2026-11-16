@@ -1,0 +1,169 @@
+{
+ "opencv_python": "5.0.0",
+ "n_images": 40,
+ "images_with_any_difference": 34,
+ "max_abs_diff_overall": 1,
+ "mean_frac_values_differing": 0.10902671305338543,
+ "per_image": {
+  "001003.jpg": {
+   "frac_values_differing": 0.145302734375,
+   "max_abs_diff": 1
+  },
+  "001085.jpg": {
+   "frac_values_differing": 0.13145589192708335,
+   "max_abs_diff": 1
+  },
+  "001146.jpg": {
+   "frac_values_differing": 0.10931070963541667,
+   "max_abs_diff": 1
+  },
+  "001152.jpg": {
+   "frac_values_differing": 0.15635416666666666,
+   "max_abs_diff": 1
+  },
+  "001155.jpg": {
+   "frac_values_differing": 0.178486328125,
+   "max_abs_diff": 1
+  },
+  "001201.jpg": {
+   "frac_values_differing": 0.153828125,
+   "max_abs_diff": 1
+  },
+  "001213.jpg": {
+   "frac_values_differing": 0.1109228515625,
+   "max_abs_diff": 1
+  },
+  "001308.jpg": {
+   "frac_values_differing": 0.14161702473958335,
+   "max_abs_diff": 1
+  },
+  "001326.jpg": {
+   "frac_values_differing": 0.14725992838541666,
+   "max_abs_diff": 1
+  },
+  "001373.jpg": {
+   "frac_values_differing": 0.1352001953125,
+   "max_abs_diff": 1
+  },
+  "001391.jpg": {
+   "frac_values_differing": 0.13943766276041666,
+   "max_abs_diff": 1
+  },
+  "001442.jpg": {
+   "frac_values_differing": 0.06137939453125,
+   "max_abs_diff": 1
+  },
+  "001503.jpg": {
+   "frac_values_differing": 0.12384928385416667,
+   "max_abs_diff": 1
+  },
+  "001516.jpg": {
+   "frac_values_differing": 0.09250732421875,
+   "max_abs_diff": 1
+  },
+  "001535.jpg": {
+   "frac_values_differing": 0.15221435546875,
+   "max_abs_diff": 1
+  },
+  "001568.jpg": {
+   "frac_values_differing": 0.13982340494791667,
+   "max_abs_diff": 1
+  },
+  "001634.jpg": {
+   "frac_values_differing": 0.11127848307291667,
+   "max_abs_diff": 1
+  },
+  "001642.jpg": {
+   "frac_values_differing": 0.12838623046875,
+   "max_abs_diff": 1
+  },
+  "001687.jpg": {
+   "frac_values_differing": 0.11559651692708334,
+   "max_abs_diff": 1
+  },
+  "001725.jpg": {
+   "frac_values_differing": 0.15648193359375,
+   "max_abs_diff": 1
+  },
+  "001752.jpg": {
+   "frac_values_differing": 0.13009195963541667,
+   "max_abs_diff": 1
+  },
+  "001790.jpg": {
+   "frac_values_differing": 0.12840901692708334,
+   "max_abs_diff": 1
+  },
+  "001854.jpg": {
+   "frac_values_differing": 0.12948811848958333,
+   "max_abs_diff": 1
+  },
+  "001865.jpg": {
+   "frac_values_differing": 0.0,
+   "max_abs_diff": 0
+  },
+  "001883.jpg": {
+   "frac_values_differing": 0.11377766927083334,
+   "max_abs_diff": 1
+  },
+  "001921.jpg": {
+   "frac_values_differing": 0.14680501302083335,
+   "max_abs_diff": 1
+  },
+  "001931.jpg": {
+   "frac_values_differing": 0.07817301432291666,
+   "max_abs_diff": 1
+  },
+  "001971.jpg": {
+   "frac_values_differing": 0.10743489583333334,
+   "max_abs_diff": 1
+  },
+  "005013.jpg": {
+   "frac_values_differing": 0.12713623046875,
+   "max_abs_diff": 1
+  },
+  "005028.jpg": {
+   "frac_values_differing": 0.13272379557291666,
+   "max_abs_diff": 1
+  },
+  "005099.jpg": {
+   "frac_values_differing": 0.10574869791666666,
+   "max_abs_diff": 1
+  },
+  "005145.jpg": {
+   "frac_values_differing": 0.13232340494791667,
+   "max_abs_diff": 1
+  },
+  "005164.jpg": {
+   "frac_values_differing": 0.13371826171875,
+   "max_abs_diff": 1
+  },
+  "005188.jpg": {
+   "frac_values_differing": 0.11637288411458334,
+   "max_abs_diff": 1
+  },
+  "005225.jpg": {
+   "frac_values_differing": 0.14817301432291666,
+   "max_abs_diff": 1
+  },
+  "02567_jpg.rf.d1327d7fe3826f7ae0976fc5e90f94aa.jpg": {
+   "frac_values_differing": 0.0,
+   "max_abs_diff": 0
+  },
+  "Video2_91_jpg.rf.faca99c76175b53a646f60aa1abc4b14.jpg": {
+   "frac_values_differing": 0.0,
+   "max_abs_diff": 0
+  },
+  "image_190_jpg.rf.2e92814af735dd1c2f54325bac2750f3.jpg": {
+   "frac_values_differing": 0.0,
+   "max_abs_diff": 0
+  },
+  "images-2022-07-04T013042_jpg.rf.b978dadc52cedd1622e4ef2c8cd1489d.jpg": {
+   "frac_values_differing": 0.0,
+   "max_abs_diff": 0
+  },
+  "ppe_0153_jpg.rf.cfc5bb75e388eecc7b459d59d4c41b95.jpg": {
+   "frac_values_differing": 0.0,
+   "max_abs_diff": 0
+  }
+ }
+}

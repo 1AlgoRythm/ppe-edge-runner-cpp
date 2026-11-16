@@ -1,0 +1,72 @@
+{
+ "model": "person_fp32",
+ "threads": 1,
+ "runs": [
+  {
+   "label": "C++ (Homebrew ORT)",
+   "setting": "default",
+   "e2e_median_ms": 104.3325,
+   "inference_median_ms": 104.0718,
+   "ort_library": "/opt/homebrew/Cellar/onnxruntime/1.32.0/lib/libonnxruntime.1.32.0.dylib",
+   "loadavg_before_after": [
+    8.18457,
+    7.97607
+   ]
+  },
+  {
+   "label": "C++ (Homebrew ORT)",
+   "setting": "mlas.disable_kleidiai=1",
+   "e2e_median_ms": 103.5832,
+   "inference_median_ms": 103.3315,
+   "ort_library": "/opt/homebrew/Cellar/onnxruntime/1.32.0/lib/libonnxruntime.1.32.0.dylib",
+   "loadavg_before_after": [
+    7.57227,
+    7.1958
+   ]
+  },
+  {
+   "label": "C++ (pip-wheel ORT)",
+   "setting": "default",
+   "e2e_median_ms": 22.904,
+   "inference_median_ms": 22.6336,
+   "ort_library": "/Users/satyaags/Projects/ppe-edge-runner-cpp/.venv/lib/python3.12/site-packages/onnxruntime/capi/libonnxruntime.1.32.0.dylib",
+   "loadavg_before_after": [
+    7.97607,
+    8.05762
+   ]
+  },
+  {
+   "label": "C++ (pip-wheel ORT)",
+   "setting": "mlas.disable_kleidiai=1",
+   "e2e_median_ms": 103.3276,
+   "inference_median_ms": 102.9241,
+   "ort_library": "/Users/satyaags/Projects/ppe-edge-runner-cpp/.venv/lib/python3.12/site-packages/onnxruntime/capi/libonnxruntime.1.32.0.dylib",
+   "loadavg_before_after": [
+    7.01953,
+    7.26904
+   ]
+  },
+  {
+   "label": "Python (pip-wheel ORT)",
+   "setting": "default",
+   "e2e_median_ms": 22.876250091940165,
+   "inference_median_ms": 22.073645843192935,
+   "ort_library": "/Users/satyaags/Projects/ppe-edge-runner-cpp/.venv/lib/python3.12/site-packages/onnxruntime/capi/libonnxruntime.1.32.0.dylib",
+   "loadavg_before_after": [
+    8.0576171875,
+    8.0576171875
+   ]
+  },
+  {
+   "label": "Python (pip-wheel ORT)",
+   "setting": "mlas.disable_kleidiai=1",
+   "e2e_median_ms": 103.0655624344945,
+   "inference_median_ms": 102.22077113576233,
+   "ort_library": "/Users/satyaags/Projects/ppe-edge-runner-cpp/.venv/lib/python3.12/site-packages/onnxruntime/capi/libonnxruntime.1.32.0.dylib",
+   "loadavg_before_after": [
+    7.2470703125,
+    6.82666015625
+   ]
+  }
+ ]
+}

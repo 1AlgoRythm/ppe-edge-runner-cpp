@@ -1,0 +1,73 @@
+{
+ "meta": {
+  "lang": "python",
+  "mode": "cascade",
+  "variant": "fp32",
+  "person_model": "models/person_fp32.onnx",
+  "ppe_model": "models/ppe_fp32.onnx",
+  "input": "own-letterbox",
+  "conf": 0.25,
+  "iou": 0.45,
+  "threads": 0,
+  "ort_config": "",
+  "onnxruntime": "1.32.0",
+  "ort_library": "/Users/satyaags/Projects/ppe-edge-runner-cpp/.venv/lib/python3.12/site-packages/onnxruntime/capi/libonnxruntime.1.32.0.dylib",
+  "opencv": "5.0.0",
+  "numpy": "2.5.5",
+  "python": "3.12.15",
+  "cpu": "Apple M4",
+  "loadavg_before_after": [
+   8.279296875,
+   8.3095703125
+  ]
+ },
+ "n_images": 40,
+ "warmup_passes": 1,
+ "timed_passes": 3,
+ "n_timings": 120,
+ "note": "Per-image times in ms. In cascade mode each stage is summed over the person run and all PPE crops of that image. Image decoding is excluded.",
+ "preprocess_ms": {
+  "median": 3.0955635011196136,
+  "p95": 9.735020413063465,
+  "mean": 4.163393129905065,
+  "min": 1.2209578417241573
+ },
+ "inference_ms": {
+  "median": 74.85564611852169,
+  "p95": 247.51945103052998,
+  "mean": 96.44852982989202,
+  "min": 43.1015002541244
+ },
+ "postprocess_ms": {
+  "median": 0.8874372579157352,
+  "p95": 3.100341279059648,
+  "mean": 1.1490833014249802,
+  "min": 0.37116557359695435
+ },
+ "stages_total_ms": {
+  "median": 78.66308302618563,
+  "p95": 258.3492113044485,
+  "mean": 101.76100626122206,
+  "min": 44.836166780442
+ },
+ "e2e_ms": {
+  "median": 78.71033297851682,
+  "p95": 258.4642581176012,
+  "mean": 101.81394998605053,
+  "min": 44.85041741281748
+ },
+ "person_stage_ms": {
+  "median": 25.680792052298784,
+  "p95": 31.721883616410196,
+  "mean": 26.56672849940757,
+  "min": 20.943916868418455
+ },
+ "ppe_stage_ms": {
+  "median": 50.63052079640329,
+  "p95": 232.13229109533123,
+  "mean": 75.19427776181449,
+  "min": 20.63941676169634
+ },
+ "crops_per_image_mean": 3.0,
+ "dets_per_image_mean": 8.0
+}
